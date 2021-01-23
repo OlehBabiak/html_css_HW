@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 30%;
+    height: 100%;
+    border: 2px solid grey;
+    color: blanchedalmond;
+    font-size: larger;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background: rgb(0, 247, 255);
+}
+
+.main-block {
+    display: flex;
+    height: 300px;
+}
+
+.main-1 {
+    width: 35%;
+}
+
+.main-2 {
+    width: 65%;
+}
+
+.hero {
+    background: rgb(226, 173, 226);
+    height: 45%;
+   
+}
+
+.sidebar {
+    background: rgb(119, 172, 119);
+    height: 55%;
+  
+}
+
+.main-content {
+    background: rgb(199, 175, 41);
+    height: 70%;
+}
+
+.extra-content {
+    background: grey;
+    height: 30%;
+}
+
+.related-block {
+    display: flex;
+    height: 80px;
+}
+
+.related-images {
+    width: 70%;
+    background: green;
+}
+
+.related-posts {
+    width: 35%;
+    background: rosybrown;
+}
+
+.footer {
+    width: 100%;
+    height: 80px;
+    background: rgb(167, 124, 46);
+}

@@ -1,0 +1,58 @@
+body {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    background-color: aqua;
+    height: 5em;
+}
+.hero {
+    background-color: rgb(189, 172, 206);
+    height: 40%;
+}
+
+.sidebar {
+    background-color: rgb(111, 167, 56);
+    height: 60%;
+}
+
+.main-content {
+    background-color: darkgoldenrod;
+    height: 70%;
+}
+
+.extra-content {
+    background-color: darkgrey;
+    height: 30%;
+}
+
+.rel-imgs{
+    background-color: green;
+}
+
+.rel-posts {
+    background-color: pink;
+}
+
+.foo {
+    background-color: orange;
+    height: 5em;
+}
+
+.col-4,  .col-8{
+    padding: 0;
+}
+
+.related {
+    height: 10em;
+}
+
+.main-1 {
+height: 100%;
+}
+
+.main{
+    height: 30em;
+}

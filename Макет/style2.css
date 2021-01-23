@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    font-size: 16pt;   
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+.header_menu a{
+    text-decoration: none;
+    color: wheat;
+}
+.header_menu a:hover{
+    background-color: whitesmoke;
+    color: rgb(70, 26, 70);
+}

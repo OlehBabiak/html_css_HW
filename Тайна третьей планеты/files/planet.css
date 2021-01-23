@@ -1,0 +1,116 @@
+html{
+  font-family: monospace;
+  font-size: x-large;
+  background: url(../imgs/back.jpg);
+  background-size: 100%;
+  color: rgb(57, 19, 92);
+}
+.head{
+  font-family: monospace;
+  background: url(../imgs/hqdefault.jpg);
+  background-size: 100%;
+  font-weight: bold;
+  font-size: xx-large;
+  padding: 100px;
+  position: relative;
+  border: 2px solid violet;
+  border-radius: 5%;
+}
+h1{
+  color: aquamarine;
+}
+h2{
+  color: rgb(57, 19, 92);
+}
+
+main{
+  padding-top: 100px;
+}
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+    display: flex;
+    justify-content: space-around;
+  }
+  a {text-decoration: none;}
+  .list li:hover ul { display: block;
+  }
+
+  .list ul {
+    display: none;
+    position: absolute;
+}
+.types{
+  height: auto;
+  width: 100%;
+  border: 2px solid black;
+  border-radius: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.heroes{
+  height: auto;
+  width: 80%;
+  background-color: silver;
+  margin: 10px auto;
+  border-radius: 5%;
+  display: flex;
+ align-items:center;
+ transition: 1s;
+}
+a.button {
+  color: #fff; /* цвет текста */
+  background: rgb(155, 56, 212); /* фон кнопки */
+  padding: 5px;
+border: ridge;
+} 
+a.button:hover { background: rgb(93, 13, 117); } /* при наведении курсора мышки */
+a.button:active { background: rgb(38, 8, 41); } /* при нажатии */
+h1, h2{text-align: center;
+text-shadow: 1px 1px #fff;
+}
+.button{
+  border-radius: 10%;
+  border: ridge solid rgb(28, 192, 55);
+  transform: scale(2);
+  margin: 10px
+}
+img{
+  /* display: flex;
+  justify-content: center;
+  align-items:center; */
+  margin: 10px;
+  border-radius: 10%;
+  transform: rotate(360deg);
+  transition: 1s;
+}
+img:hover{
+  transform: scale(2);
+}
+div .heroes:hover{
+  transform: scale(1.1);
+transition: 1s;}
+
+.sign{
+  font-size: x-large;
+  margin: 20px;
+color: white;}
+.mainH1{
+  font-family: 'Press Start 2P', cursive;
+  text-shadow: -1px -1px aquamarine, 2px 2px wheat;
+}
+p{
+  /* display: flex;
+  justify-content:center;
+  align-items:center; */
+  text-shadow: -1px -1px rgb(202, 194, 209), 1px 1px rgb(57, 19, 92)
+}
+.content-text p{
+  width: 80;
+  margin: 0 auto;
+}
+.content-text h2{
+text-align: center;
+}
