@@ -89,7 +89,7 @@ main {
 
 .items {
     display: flex;
-    justify-content: flex;
+    /* justify-content: flex; */
 }
 
 .img-2 {
