@@ -1,0 +1,79 @@
+@media screen and (max-width: 561px){
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+.h1 h1 {
+    position: absolute;
+    font-size: 35px;
+    margin-left: -127px;
+    top: 180px;
+    z-index: 1;
+}
+
+.h2 {
+    font-size: 25px;
+    line-height: 0px;
+}
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+}
+
+.marakesh, .seamer, .stambul {
+    width: 340px;
+    padding-left: 10px;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: column;
+    height: 95px;
+    align-items: center;
+}
+
+/* button_mobile */
+ .button_mob {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .button_mob span {
+    width: 48px;
+    height: 7px;
+    background-color:  red;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+}
+
+.button_mob span::before, .button_mob span::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color:  #3298f2;
+    border-radius: 5px;
+}
+
+.button_mob span::before {
+top: -15px;
+}
+
+.button_mob span::after {
+    bottom: -15px;
+}
+
+
+ .nav {
+     display: none;
+ }
+
+}
