@@ -1,4 +1,7 @@
-// document.querySelector('.button_mobile').onclick = function () {
-//     this.classList.toggle('active')
-//     document.querySelector('.header-top').classList.toggle('active');
-// }
+document.querySelector('.button_mob').onclick = function () {
+    document.querySelector('.header').classList.toggle('active');  
+}
+
+document.querySelector('.closer').onclick = function () {
+    document.querySelector('.header').classList.toggle('active');  
+}

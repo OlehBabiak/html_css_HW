@@ -4,6 +4,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
     }
 
 .h1 h1 {
@@ -45,7 +46,7 @@
  .button_mob span {
     width: 48px;
     height: 7px;
-    background-color:  #3298f2;
+    background-color:  #165859;
     border-radius: 5px;
     position: relative;
     display: block;
@@ -57,7 +58,7 @@
     height: 100%;
     display: block;
     position: absolute;
-    background-color:  #3298f2;
+    background-color:  #165859;
     border-radius: 5px;
 }
 
@@ -71,7 +72,61 @@ top: -15px;
 
 
  .nav {
-     display: none;
+     
  }
+
+ /* header nav*/
+
+ nav {
+        position: absolute;
+        flex-direction: column;
+        width: 300%;
+        background: grey;
+        z-index: 10;
+        left: -162%;
+        height: 45vh;
+        top: -385%;
+        align-items: center;
+        padding-top: 50px;
+        row-gap: 25px;
+        transition: 500ms
+    }
+
+    .nav div {
+        align-items: center;
+    }
+
+nav a {
+        font-weight: 800;
+        color: black;
+        letter-spacing: 4px;
+    }
+
+.active .nav {
+        top: 0;
+    }
+
+    .closer {
+        position: absolute;
+    left: 20px;
+    top: 35px;
+    }
+
+    .closer span {
+    width: 48px;
+    height: 7px;
+    background-color:  #165859;
+    border-radius: 5px;
+    position: relative;
+    display: block;
+    position: absolute;
+}
+    .closer span:first-child {
+        transform: rotate(45deg);
+    }
+
+    .closer span:last-child {
+        transform: rotate(-45deg);
+    }
 
 }
