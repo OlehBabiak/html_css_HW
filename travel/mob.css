@@ -7,16 +7,13 @@
     }
 
 .h1 h1 {
-    position: absolute;
     font-size: 35px;
     margin-left: -127px;
     top: 180px;
-    z-index: 1;
 }
 
 .h2 {
     font-size: 25px;
-    line-height: 0px;
 }
 
 .main_content{
@@ -38,6 +35,7 @@
 
 /* button_mobile */
  .button_mob {
+     display: flex;
     width: 60px;
     height: 60px;
     justify-content: center;
@@ -47,7 +45,7 @@
  .button_mob span {
     width: 48px;
     height: 7px;
-    background-color:  red;
+    background-color:  #3298f2;
     border-radius: 5px;
     position: relative;
     display: block;
