@@ -46,7 +46,7 @@
     }
 
     .header {
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .header-title {
         font-size: 22px;
